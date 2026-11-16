@@ -1,0 +1,30 @@
+# Python virtual environments
+venv/
+**/venv/
+.venv/
+**/.venv/
+env/
+**/env/
+
+# Byte-compiled / optimized files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS system files
+.DS_Store
+._*
+**/.DS_Store
+**/._*
+
+# Environment and secrets
+.env
+*.env
+.streamlit/secrets.toml
+
+# Logs and runtime artifacts
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
